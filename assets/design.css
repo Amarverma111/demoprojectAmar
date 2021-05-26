@@ -21,8 +21,7 @@
 {
 	width: 300px;
 	height: 90px;
-	position: sticky;
-	top: 0px;
+	
 
 
 }
@@ -263,12 +262,29 @@ hr
     position: absolute;
     left: 550px;
     width: 600px;
+	
 }
+
+@media only screen and (max-width: 590px)
+{
+	.footer-up
+	{
+	max-width: 100%;
+	}
+}
+
 @media only screen and (max-width: 650px)
 {
 	.footer-up
 	{
 	left: 28px;
+	}
+}
+@media only screen and (max-width: 700px)
+{
+	.footer-up
+	{
+		margin-left: -106px;
 	}
 }
 
@@ -279,6 +295,13 @@ hr
 	left: 220px;
 	}
 }
+@media only screen and (max-width: 1113px)
+{
+	.footer-up
+	{
+	left: 109px;
+	}
+}
 
 /* banner img */
 
@@ -286,6 +309,7 @@ hr
 .bn-img
 {
 	height: 400px;
+	width: 100%
 }
 
 
@@ -370,5 +394,33 @@ hr
     80% { opacity: 0; }
     100% { opacity: 0; }
 }
+
+.imgss
+{
+	
+	background-image:url("./images/banner.jpg");	
+	height: 500px;
+	
+	
+}
         
+/* end */
+
+/* list number data css */
+
+.list-inline-item
+{
+	letter-spacing:2px;
+
+	font-size: 28px;
+	font-weight: 600;
+	color: #333;
+	padding: 82px;
+	
+
+}
+.list-number
+{
+	background-color:#f1f2f6;
+}
 /* end */
